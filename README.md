@@ -1,0 +1,1 @@
+# ws-ssm-parameter-store
