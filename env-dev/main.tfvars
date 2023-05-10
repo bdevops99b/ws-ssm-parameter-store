@@ -4,4 +4,4 @@ parameters = [
   { name = "dev.frontend.cart_url", value = "http://cart-dev.panda4u.online:8080/" }
 ]
 
-env = 'dev'
+env = "dev"
