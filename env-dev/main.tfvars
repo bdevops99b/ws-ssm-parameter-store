@@ -12,6 +12,7 @@ parameters = [
   { name = "dev.cart.redis_host", value = "redis-dev.panda4u.online" },
   { name = "dev.cart.catalogue_endpoint", value = "catalogue-dev.panda4u.online" },
   { name = "dev.cart.catalogue_port", value = "8080" }
+
 ]
 
 env = "dev"
