@@ -11,8 +11,4 @@ parameters = [
   { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.panda4u.online:27017/catalogue" }
 ]
 
-
-#Environment=MONGO=true
-#Environment=REDIS_HOST=redis-dev.panda4u.online
-#Environment=MONGO_URL="mongodb://mongodb-dev.panda4u.online:27017/users"
 env = "dev"
