@@ -3,3 +3,5 @@ parameters = [
   { name = "dev.frontend.user_url", value = "http://user-dev.panda4u.online:8080/" },
   { name = "dev.frontend.cart_url", value = "http://cart-dev.panda4u.online:8080/" }
 ]
+
+env = 'dev'
