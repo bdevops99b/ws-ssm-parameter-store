@@ -5,7 +5,7 @@ parameters = [
   { name = "dev.frontend.shipping_url", value = "http://shipping-dev.panda4u.online:8080/" },
   { name = "dev.frontend.payment_url", value = "http://payment-dev.panda4u.online:8080/" },
   { name = "dev.catalogue.mongo_endpoint", value = "mongodb-dev.panda4u.online" },
-  { name = "dev.catalogue.mongo", value = "MONGO-true" },
+  { name = "dev.catalogue.mongo", value = "MONGO=true" },
   { name = "dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.panda4u.online:27017/catalogue" }
 ]
 
