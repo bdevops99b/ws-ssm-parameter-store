@@ -23,7 +23,7 @@ parameters = [
   { name = "dev.payment.user_port", value = "8080" },
   { name = "dev.payment.AMQP_HOST", value = "rabbitmq-dev.panda4u.online" },
   { name = "dev.payment.AMQP_USER", value = "roboshop" },
-  { name = "dev.payment.AMQP_PASS", value = "rabbitmq_appuser_password" }
+  { name = "dev.payment.AMQP_PASS", value = "roboshop123" }
 
 ]
 env = "dev"
