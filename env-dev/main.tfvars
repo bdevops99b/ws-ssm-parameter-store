@@ -9,7 +9,6 @@ parameters = [
   { name = "dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.panda4u.online:27017/catalogue" },
   { name = "dev.user.mongo", value = "MONGO=true" },
   { name = "dev.user.redis_host", value = "redis-dev.panda4u.online" },
-  { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.panda4u.online:27017/users" },
   { name = "dev.cart.redis_host", value = "redis-dev.panda4u.online" },
   { name = "dev.cart.catalogue_endpoint", value = "catalogue-dev.panda4u.online" },
   { name = "dev.cart.catalogue_port", value = "8080" },
