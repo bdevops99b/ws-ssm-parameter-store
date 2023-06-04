@@ -33,6 +33,8 @@ passwords = [
   { name = "dev.docdb.db_user", value = "roboshop" },
   { name = "dev.docdb.db_pass", value = "roboshop12345" },
   { name = "dev.rds.db_user", value = "roboshop" },
-  { name = "dev.rds.db_pass", value = "roboshop12345" }
+  { name = "dev.rds.db_pass", value = "roboshop12345" },
+  { name = "dev.rabbitmq.rabbitmq_appuser_password", value = "roboshop123" }
+
 
 ]
