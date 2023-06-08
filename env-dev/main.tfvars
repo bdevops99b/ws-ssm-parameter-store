@@ -22,8 +22,6 @@ parameters = [
   { name = "dev.payment.user_port", value = "8080" },
   { name = "dev.payment.AMQP_HOST", value = "rabbitmq-dev.panda4u.online" },
   { name = "dev.payment.AMQP_USER", value = "roboshop" },
-  { name = "dev.docdb.db_user", value = "roboshop" },
-  { name = "dev.docdb.db_pass", value = "roboshop12345" },
   { name = "dev.docdb.db_endpoint", value = "docdb-dev.cluster-ckxjifubkfou.us-east-1.docdb.amazonaws.com" }
 
 ]
