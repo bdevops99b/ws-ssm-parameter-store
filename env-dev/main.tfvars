@@ -22,6 +22,7 @@ parameters = [
   { name = "dev.payment.user_port", value = "8080" },
   { name = "dev.payment.AMQP_HOST", value = "rabbitmq-dev.panda4u.online" },
   { name = "dev.payment.AMQP_USER", value = "roboshop" },
+  { name = "dev.docdb.db_user", value = "roboshop" },
   { name = "dev.docdb.db_endpoint", value = "docdb-dev.cluster-ckxjifubkfou.us-east-1.docdb.amazonaws.com" }
 
 ]
@@ -30,7 +31,6 @@ env = "dev"
 passwords = [
   { name = "dev.shipping.db_password", value = "RoboShop@1" },
   { name = "dev.payment.AMQP_PASS", value = "roboshop123" },
-  { name = "dev.docdb.db_user", value = "roboshop" },
   { name = "dev.docdb.db_pass", value = "roboshop12345" },
   { name = "dev.rds.db_user", value = "roboshop" },
   { name = "dev.rds.db_pass", value = "roboshop12345" },
