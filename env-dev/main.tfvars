@@ -24,8 +24,7 @@ parameters = [
   { name = "dev.payment.AMQP_USER", value = "roboshop" },
   { name = "dev.docdb.db_user", value = "roboshop" },
   { name = "dev.docdb.db_pass", value = "roboshop12345" },
-  { name = "dev.docdb.db_endpoint", value = "docdb-dev.cluster-ckxjifubkfou.us-east-1.docdb.amazonaws.com" },
-  { name = "dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop12345@docdb-dev.cluster-ckxjifubkfou.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
+  { name = "dev.docdb.db_endpoint", value = "docdb-dev.cluster-ckxjifubkfou.us-east-1.docdb.amazonaws.com" }
 
 ]
 env = "dev"
@@ -33,9 +32,12 @@ env = "dev"
 passwords = [
   { name = "dev.shipping.db_password", value = "RoboShop@1" },
   { name = "dev.payment.AMQP_PASS", value = "roboshop123" },
+  { name = "dev.docdb.db_user", value = "roboshop" },
+  { name = "dev.docdb.db_pass", value = "roboshop12345" },
   { name = "dev.rds.db_user", value = "roboshop" },
   { name = "dev.rds.db_pass", value = "roboshop12345" },
   { name = "dev.rabbitmq.rabbitmq_appuser_password", value = "roboshop123" },
+  { name = "dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop12345@docdb-dev.cluster-ckxjifubkfou.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
 
 ]
 
