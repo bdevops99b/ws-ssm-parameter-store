@@ -12,7 +12,7 @@ parameters = [
   { name = "dev.cart.redis_host", value = "elasticache-dev-elasticache.giqtml.ng.0001.use1.cache.amazonaws.com" },
   { name = "dev.cart.catalogue_endpoint", value = "catalogue-dev.panda4u.online" },
   { name = "dev.cart.catalogue_port", value = "80" },
-  { name = "dev.shipping.cart_endpoint", value = "cart-dev.panda4u.online:8080" },
+  { name = "dev.shipping.cart_endpoint", value = "cart-dev.panda4u.online:80" },
   { name = "dev.rds.db_host", value = "rds-dev-rds.cluster-ckxjifubkfou.us-east-1.rds.amazonaws.com" },
   { name = "dev.shipping.db_user", value = "root" },
   { name = "dev.payment.cart_host", value = "cart-dev.panda4u.online" },
