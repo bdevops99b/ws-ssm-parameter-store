@@ -1,3 +1,3 @@
 bucket = "breddy99z"
-key    = "parameter-store/prod/terraform.tfstate"
+key    = "roboshop/prod/terraform.tfstate"
 region = "us-east-1"
