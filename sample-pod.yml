@@ -9,4 +9,3 @@ spec:
     - name: demo
       image: 193400300103.dkr.ecr.us-east-1.amazonaws.com/aws-parameter-store:latest
       imagePullPolicy: Always
-
