@@ -23,11 +23,9 @@ parameters = [
   { name = "prod.payment.user_port", value = "80" },
   { name = "prod.payment.AMQP_HOST", value = "rabbitmq-prod.panda4u.online" },
   { name = "prod.payment.AMQP_USER", value = "roboshop" },
-  { name = "prod.docdb.db_endpoint", value = "docdb-prod.cluster-cmyeikyyy3dr.us-east-1.docdb.amazonaws.com" },
+  { name = "prod.docdb.db_endpoint", value = "docdb-prod.cluster-cmyeikyyy3dr.us-east-1.docdb.amazonaws.com" }
+
 ]
-
-env = "prod"
-
 passwords = [
   { name = "prod.shipping.db_password", value = "RoboShop@1" },
   { name = "prod.payment.AMQP_PASS", value = "roboshop123" },
@@ -41,3 +39,4 @@ passwords = [
 
 ]
 
+env = "prod"
