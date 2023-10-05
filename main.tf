@@ -14,3 +14,4 @@ resource "aws_ssm_parameter" "passwords" {
   type  = "SecureString"
   key_id = "93495d82-fd8d-4def-b938-7fa93ac14b42"
 }
+
